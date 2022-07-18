@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="class calıstırma" verbose="1">
+
+    <test name="farklı classları calıstırma">
+
+
+        <classes>
+
+            <class name="Tests.smokeTest.positiveLoginTest"></class>
+            <class name="Tests.day16.C01_E2ETest2"></class>
+            <class name="Tests.day14.C04_AmazonConfigReader"></class>
+
+
+        </classes>
+    </test>
+
+</suite>

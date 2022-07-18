@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="paralel class calistirma"  thread-count="2" verbose="3">
+
+
+    <test name="paralel calstirma1">
+
+       <packages>
+           
+           <package name="Tests.day13"></package>
+           <package name="Tests.smokeTest"></package>
+           
+           
+           
+       </packages>
+
+
+
+
+
+    </test>
+
+
+
+
+
+
+</suite>
+

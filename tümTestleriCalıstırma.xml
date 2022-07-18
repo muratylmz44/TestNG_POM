@@ -1,0 +1,18 @@
+
+<suite name="tüm testleri  calıstırma">
+    <test name="tüm testleri  calıstırma">
+
+
+        <packages>
+            <package name=".*"></package>
+        </packages>
+
+
+    </test>
+
+
+
+
+
+
+</suite>

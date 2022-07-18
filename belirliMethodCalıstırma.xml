@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ilkdenem">
+    <test name="Suite test deneme">
+
+        <classes>
+            <class name="Tests.day14.C04_AmazonConfigReader">
+                <methods>
+
+                    <!-- calistiracagimiz method sayisi az oldugunda include ile istedigimiz kadar secebiliriz -->
+                    <!-- calistirmayacagimiz method sayisi az oldugunda exclude ile istedigimiz kadar secebiliriz -->
+                    <!-- include ve exclude tag'lari istedigimiz kadar alt alta yazilabilir -->
+
+                    <include name="test">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
